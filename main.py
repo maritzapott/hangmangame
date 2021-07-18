@@ -6,7 +6,7 @@ randomwords = authenticate.json()
 
 def _choose_word():
     for item in randomwords:
-        return item['word']
+        return item['word'].lower()
 
 
 
